@@ -36,7 +36,7 @@ rm dir*/*
 mv tmp dir1
 
 # 8. How would you navigate back to the parent directory containing all the directories?
-
+cd ~
 
 # 9. How would you remove each directory along with its contents?
 rm -r dir*
