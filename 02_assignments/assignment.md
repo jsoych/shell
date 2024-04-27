@@ -34,10 +34,41 @@ You are stuck in a virtual room and can only leave if you figure out the passwor
 
 **What is the secret password?**
 ```
-Your answer here...
+The secret password is: paper rings 10 Meets Legacies Lucky Stars
 
+Hi there, I've also included some of the bash commands I used to find the secret password. To begin, assume we are working from the directory 02_assignments.
 
+1. 
+ls clues
+cd clues/food
+ls cake
+cat cake/*
 
+2.
+cd ..
+pwd
+ls shows
+ls shows/friends
+ls shows/friends/*
+ls shows/friends/season_10 | wc -l
+
+3.
+cat shows/friends/season_6/ep_21.txt
+
+4.
+cat movies/space_wars/fifth_movie.txt
+
+5.
+cd albums
+ls *
+cat red/*
+
+6.
+cd ..
+pwd
+ls movies
+ls movies/hanger_games
+cat movies/hanger_games/movie_4.txt
 
 ```
 
